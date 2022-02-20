@@ -11,7 +11,7 @@ namespace Assignment3
     public class DataAccessLayerTest
     {
         [Fact]
-        public async Task OnPostAsync_CustomersAreReturned()
+        public async Task OnGetAsync_CustomersAreReturned()
         {
             using (var db = new DeliveryCartDbContext(Utilities.TestDbContextOptions()))
             {
@@ -21,13 +21,13 @@ namespace Assignment3
                 await db.SaveChangesAsync();
 
                 // Act
-                var result = await db.OnPostAsync();
+                var result = await db.OnGetAsync();
 
                 // Assert
                 var actualCustomers = Assert.IsAssignableFrom<List<Customer>>(result);
                 Assert.Equal(
-                    expectedCustomers.OrderBy(m => m.Id).Select(m => m.Text), 
-                    actualCustomers.OrderBy(m => m.Id).Select(m => m.Text));
+                    expectedCustomers.OrderBy(m => m.CustomerID).Select(m => m.Email), 
+                    actualCustomers.OrderBy(m => m.CustomerID).Select(m => m.Email));
             }
         }
     }
