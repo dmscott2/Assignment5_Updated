@@ -9899,11 +9899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_Updated\\Assignment3.Tests\\Assignment3.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_New\\Assignment5_Updated\\Assignment3.Tests\\Assignment3.Tests.csproj",
       "projectName": "Assignment3.Tests",
-      "projectPath": "c:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_Updated\\Assignment3.Tests\\Assignment3.Tests.csproj",
+      "projectPath": "C:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_New\\Assignment5_Updated\\Assignment3.Tests\\Assignment3.Tests.csproj",
       "packagesPath": "C:\\Users\\dawns\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_Updated\\Assignment3.Tests\\obj\\",
+      "outputPath": "C:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_New\\Assignment5_Updated\\Assignment3.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dawns\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9918,8 +9918,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_Updated\\Assignment3\\Assignment3.csproj": {
-              "projectPath": "c:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_Updated\\Assignment3\\Assignment3.csproj"
+            "C:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_New\\Assignment5_Updated\\Assignment3\\Assignment3.csproj": {
+              "projectPath": "C:\\Users\\dawns\\OneDrive\\Desktop\\Assignment5_New\\Assignment5_Updated\\Assignment3\\Assignment3.csproj"
             }
           }
         }

@@ -11,7 +11,7 @@ namespace Assignment3
     public class DataAccessLayerTest
     {
         [Fact]
-        public async Task OnGetAsync_CustomersAreReturned()
+        public async Task GetCustomersAsync_CustomersAreReturned()
         {
             using (var db = new DeliveryCartDbContext(Utilities.TestDbContextOptions()))
             {
@@ -21,7 +21,7 @@ namespace Assignment3
                 await db.SaveChangesAsync();
 
                 // Act
-                var result = await db.OnGetAsync();
+                var result = await db.GetCustomersAsync();
 
                 // Assert
                 var actualCustomers = Assert.IsAssignableFrom<List<Customer>>(result);
