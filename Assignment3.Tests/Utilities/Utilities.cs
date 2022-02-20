@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Assignment3.Models;
 using Assignment3.Tests;
+using Microsoft.AspNetCore.Builder;
 
 namespace Assignment3.Tests
 {
